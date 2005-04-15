@@ -22,7 +22,7 @@ Set of LaTeX macros for ... physicists.
 Zestaw makr LaTeXa dla ... fizyków.
 
 %prep
-%setup -q -c -n algorithms
+%setup -q -n algorithms
 
 %install
 rm -rf $RPM_BUILD_ROOT
