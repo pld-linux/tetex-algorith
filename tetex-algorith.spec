@@ -1,6 +1,6 @@
 %define	_short_name 	algorith
-Summary:	Set of LaTeX macros for ... physicists
-Summary(pl):	Zestaw makr LaTeXa dla ... fizyków
+Summary:	Set of LaTeX macros for algorithms
+Summary(pl):	Zestaw makr LaTeXa dla algorytmów
 Name:		tetex-algorith
 Version:	20050316
 Release:	1
@@ -16,10 +16,22 @@ Prereq:		tetex
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Set of LaTeX macros for ... physicists.
+This package provides two environments, algorithmic and algorithm,
+which are designed to be used together but may be used separately. The
+algorithmic environment provides an environment for describing
+algorithms and the algorithm environment provides a "float" wrapper
+for algorithms (implemented using algorithmic or some other method at
+the author's option). The reason that two environments are provided is
+to allow the author maximum flexibility.
 
 %description -l pl
-Zestaw makr LaTeXa dla ... fizyków.
+Ten pakiet udostêpnia dwa ¶rodowiska: algorithmic i algorithm, które
+zosta³y zaprojektowane do wspólnego u¿ywania, ale mo¿na ich u¿ywaæ
+osobno. ¦rodowisko algorithmic umo¿liwia opisywanie algorytmów, a
+algorithm jest "p³ywaj±cym" ¶rodowiskiem do prezentowania algorytmów
+(generowanych w ¶rodowisku algorithmic lub inn± metod±). Powodem
+istnienia dwóch ¶rodowisk jest pozostawienie autorom maksymalnej
+swobody.
 
 %prep
 %setup -q -n algorithms
