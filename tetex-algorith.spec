@@ -3,7 +3,7 @@ Summary:	Set of LaTeX macros for algorithms
 Summary(pl):	Zestaw makr LaTeXa dla algorytmów
 Name:		tetex-algorith
 Version:	20050316
-Release:	1
+Release:	2
 License:	LGPL 2.1+
 Group:		Applications/Publishing/TeX
 # taken from: ftp://ftp.dante.de/pub/tex/macros/latex/contrib/algorithms.tgz
