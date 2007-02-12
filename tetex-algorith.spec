@@ -1,6 +1,6 @@
 %define	_short_name 	algorith
 Summary:	Set of LaTeX macros for algorithms
-Summary(pl):	Zestaw makr LaTeXa dla algorytmów
+Summary(pl.UTF-8):   Zestaw makr LaTeXa dla algorytmÃ³w
 Name:		tetex-algorith
 Version:	20050316
 Release:	2
@@ -24,13 +24,13 @@ for algorithms (implemented using algorithmic or some other method at
 the author's option). The reason that two environments are provided is
 to allow the author maximum flexibility.
 
-%description -l pl
-Ten pakiet udostêpnia dwa ¶rodowiska: algorithmic i algorithm, które
-zosta³y zaprojektowane do wspólnego u¿ywania, ale mo¿na ich u¿ywaæ
-osobno. ¦rodowisko algorithmic umo¿liwia opisywanie algorytmów, a
-algorithm jest "p³ywaj±cym" ¶rodowiskiem do prezentowania algorytmów
-(generowanych w ¶rodowisku algorithmic lub inn± metod±). Powodem
-istnienia dwóch ¶rodowisk jest pozostawienie autorom maksymalnej
+%description -l pl.UTF-8
+Ten pakiet udostÄ™pnia dwa Å›rodowiska: algorithmic i algorithm, ktÃ³re
+zostaÅ‚y zaprojektowane do wspÃ³lnego uÅ¼ywania, ale moÅ¼na ich uÅ¼ywaÄ‡
+osobno. Åšrodowisko algorithmic umoÅ¼liwia opisywanie algorytmÃ³w, a
+algorithm jest "pÅ‚ywajÄ…cym" Å›rodowiskiem do prezentowania algorytmÃ³w
+(generowanych w Å›rodowisku algorithmic lub innÄ… metodÄ…). Powodem
+istnienia dwÃ³ch Å›rodowisk jest pozostawienie autorom maksymalnej
 swobody.
 
 %prep
