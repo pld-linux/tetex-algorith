@@ -1,6 +1,6 @@
 %define	_short_name 	algorith
 Summary:	Set of LaTeX macros for algorithms
-Summary(pl.UTF-8):   Zestaw makr LaTeXa dla algorytmów
+Summary(pl.UTF-8):	Zestaw makr LaTeXa dla algorytmów
 Name:		tetex-algorith
 Version:	20050316
 Release:	2
