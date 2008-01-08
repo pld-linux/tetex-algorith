@@ -1,9 +1,9 @@
-%define	_short_name 	algorith
+%define	short_name 	algorith
 Summary:	Set of LaTeX macros for algorithms
 Summary(pl.UTF-8):	Zestaw makr LaTeXa dla algorytmów
 Name:		tetex-algorith
 Version:	20050316
-Release:	2
+Release:	3
 License:	LGPL 2.1+
 Group:		Applications/Publishing/TeX
 # taken from: ftp://ftp.dante.de/pub/tex/macros/latex/contrib/algorithms.tgz
@@ -12,7 +12,6 @@ Source0:	algorithms.tgz
 %requires_eq	tetex
 %requires_eq	tetex-latex
 BuildRequires:	tetex-latex
-Prereq:		tetex
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -38,10 +37,8 @@ swobody.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_datadir}/texmf/tex/latex/%{_short_name} \
-	$RPM_BUILD_ROOT%{_datadir}/texmf/doc/latex/%{_short_name}
-
-install *.sty $RPM_BUILD_ROOT%{_datadir}/texmf/tex/latex/%{_short_name}
+install -d $RPM_BUILD_ROOT%{_datadir}/texmf/tex/latex/%{short_name}
+install *.sty $RPM_BUILD_ROOT%{_datadir}/texmf/tex/latex/%{short_name}
 
 %post	-p %{_bindir}/mktexlsr
 %postun	-p %{_bindir}/mktexlsr
@@ -52,4 +49,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README *.tex
-%{_datadir}/texmf/tex/latex/%{_short_name}
+%{_datadir}/texmf/tex/latex/%{short_name}
