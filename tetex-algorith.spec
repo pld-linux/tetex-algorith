@@ -9,9 +9,9 @@ Group:		Applications/Publishing/TeX
 # taken from: ftp://ftp.dante.de/pub/tex/macros/latex/contrib/algorithms.tgz
 Source0:	algorithms.tgz
 # Source0-md5:	b8d41cfe88164385c294329a63dff7cc
+BuildRequires:	tetex-latex
 %requires_eq	tetex
 %requires_eq	tetex-latex
-BuildRequires:	tetex-latex
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
