@@ -2,13 +2,12 @@
 Summary:	Set of LaTeX macros for algorithms
 Summary(pl.UTF-8):	Zestaw makr LaTeXa dla algorytmów
 Name:		tetex-algorith
-Version:	20050316
-Release:	3
+Version:	20060603
+Release:	1
 License:	LGPL 2.1+
 Group:		Applications/Publishing/TeX
-# taken from: ftp://ftp.dante.de/pub/tex/macros/latex/contrib/algorithms.tgz
-Source0:	algorithms.tgz
-# Source0-md5:	b8d41cfe88164385c294329a63dff7cc
+Source0:	http://www.ctan.org/get/macros/latex/contrib/algorithms.zip
+# Source0-md5:	1491fc0eacc3fb3653d1ef4b6f7fc796
 BuildRequires:	tetex-latex
 %requires_eq	tetex
 %requires_eq	tetex-latex
@@ -48,5 +47,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README *.tex
+%doc README *.tex *.pdf
 %{_datadir}/texmf/tex/latex/%{short_name}
