@@ -9,6 +9,7 @@ Group:		Applications/Publishing/TeX
 Source0:	http://www.ctan.org/get/macros/latex/contrib/algorithms.zip
 # Source0-md5:	1491fc0eacc3fb3653d1ef4b6f7fc796
 BuildRequires:	tetex-latex
+BuildRequires:	unzip
 %requires_eq	tetex
 %requires_eq	tetex-latex
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
